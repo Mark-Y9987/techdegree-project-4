@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Interactive Photo Gallery</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="lightbox/css/lightbox.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="search">
+        <input type="text" name="search" placeholder="Search.." data-search>
+      </div>
+      <div class="filtr-container">
+        <div class="filtr-item"  data-category="field" data-search="field">
+          <a href="photos/01.jpg" data-lightbox="slideshow" data-title="This is a photo of a field."><img src="photos/thumbnails/01.jpg" alt="field"></a>
+        </div>
+        <div class="filtr-item">
+          <a href="photos/02.jpg" data-lightbox="slideshow" data-title="This is a photo of a lake on a wonderfully cloudy day."><img src="photos/thumbnails/02.jpg" alt="lake" data-category="lake"></a>
+        </div>
+        <div class="filtr-item">
+          <a href="photos/03.jpg" data-lightbox="slideshow" data-title="This is a photo of an overcast landscape."><img src="photos/thumbnails/03.jpg" alt="overcast day" data-category="overcast"></a>
+        </div>
+        <div class="filtr-item">
+          <a href="photos/04.jpg" data-lightbox="slideshow" data-title="This is a photo of an icy, snowy lake with mountains behind it."><img src="photos/thumbnails/04.jpg" alt="icey landscape" data-category="ice"></a>
+        </div>
+        <div class="filtr-item">
+          <a href="photos/05.jpg" data-lightbox="slideshow" data-title="This is a photo of mountains side by side forming a pathway in the middle."><img src="photos/thumbnails/05.jpg" alt="mountains" data-category="mountains"></a>
+        </div>
+        <div class="filtr-item">
+          <a href="photos/06.jpg" data-lightbox="slideshow" data-title="This is a photo of a forrest on a nice, fall afternoon."><img src="photos/thumbnails/06.jpg" alt="forrest" data-category="forrest"></a>
+        </div>
+        <div class="filtr-item">
+          <a href="photos/07.jpg" data-lightbox="slideshow" data-title="This is a photo of a wonderful fishing spot along a riverbed."><img src="photos/thumbnails/07.jpg" alt="riverbed" data-category="riverbed"></a>
+        </div>
+        <div class="filtr-item">
+          <a href="photos/08.jpg" data-lightbox="slideshow" data-title="This is a photo of the dunes covered in beach grass."><img src="photos/thumbnails/08.jpg" alt="dunes" data-category="dunes"></a>
+        </div>
+        <div class="filtr-item">
+          <a href="photos/09.jpg" data-lightbox="slideshow" data-title="This is a photo of an overgrown pathway leading to a hidden destination"><img src="photos/thumbnails/09.jpg" alt="pathway" data-category="pathway"></a>
+        </div>
+        <div class="filtr-item">
+          <a href="photos/10.jpg" data-lightbox="slideshow" data-title="This is a photo of the ocean just as the sun is starting to start it's day."><img src="photos/thumbnails/10.jpg" alt="ocean" data-category="ocean"></a>
+        </div>
+        <div class="filtr-item">
+          <a href="photos/11.jpg" data-lightbox="slideshow" data-title="This is a photo taken from the inside of a cave overlooking a valley."><img src="photos/thumbnails/11.jpg" alt="valley" data-category="valley"></a>
+        </div>
+        <div class="filtr-item">
+          <a href="photos/12.jpg" data-lightbox="slideshow" data-title="This is a photo taken from a valley looking up at a cloudy mountain in the distance."><img src="photos/thumbnails/12.jpg" alt="A cloudy mountain" data-category="cloudy mountain"></a>
+        </div>
+    </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="lightbox/js/lightbox.js"></script>
+    <script src="filterizr/jquery.filterizr.min.js"></script>
+  </body>
+</html>

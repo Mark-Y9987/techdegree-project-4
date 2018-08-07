@@ -1,0 +1,38 @@
+* {
+font-family: 'Montserrat', sans-serif;
+}
+
+body {
+
+}
+
+input {
+  padding: 12px;
+  margin: 12px;
+  width: 300px;
+}
+
+.filtr-container {
+  box-sizing: border-box;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.search {
+  text-align: center;
+  padding: 12px;
+  margin: 12px;
+
+}
+
+.filtr-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.filtr-item {
+  flex: 1;
+  max-width: 200px;
+  margin: 48px;
+}
