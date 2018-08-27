@@ -1,4 +1,4 @@
-// function() {
+
   var $imgs = $('.filtr-container img');
   var $search = $('#filter-search');
   var cache = [];
@@ -25,4 +25,3 @@
   } else {
     $search.on('keyup', filter);
   }
-// }()
