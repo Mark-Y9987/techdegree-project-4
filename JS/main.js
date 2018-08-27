@@ -17,7 +17,8 @@
       if (query) {
         index = img.text.indexOf(query);
       }
-      img.element.style.display = index === -1 ? 'none' : '';
+      img.element.parentNode.parentElement.style.display = index === -1 ? 'none' : '';
+
     })
   }
   if ('oninput' in $search[0]) {
